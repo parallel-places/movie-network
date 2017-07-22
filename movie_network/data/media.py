@@ -8,5 +8,5 @@ class Movie():
     """
     def __init__(self, title, poster, trailer_url):
         self.title = title
-        self.poster = poster
-        self.trailer_url = trailer_url
+        self.poster_image_url = poster
+        self.trailer_youtube_url = trailer_url
