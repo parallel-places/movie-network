@@ -1,0 +1,5 @@
+.vscode
+.DS_STORE
+keys
+**__pycache__**
+**.ipynb
