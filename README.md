@@ -5,7 +5,14 @@ Movie Network is a personal movie library website. Currently, it's possible to g
 Run
 ---
 To be able to run the code you need API keys for The Movie DB and Youtube Data APIs. You should create a file named keys in the project's root directory and paste those keys inside that file given the example template provided in this repo inside the keys_template file.
-
+<ul>
+	<li>
+		<a href="https://developers.themoviedb.org/3/getting-started/introduction">Instructions to get a MovieDB API key</a>
+	</li>
+	<li>
+		<a href="https://developers.google.com/youtube/v3/getting-started">YouTube Data API Overview</a>
+	</li>
+</ul>
 Afterwards, you can easily run the main.py from the project's root directory and the HTML webpage fresh_tomatos.html will be automatically opened with the movies' posters and trailers.
 
 In order to change the list of movies you can modify the MOVIES_NAMES list inside the main.py
@@ -17,6 +24,6 @@ Movie Network uses the MIT License.
 
 About MovieDB
 -------------
-<img src="resources/moviedb.png" alt="moviedb" style="width: 120px;"/> 
+<img src="resources/moviedb.png" alt="moviedb" width="120"/> 
 
 The projects uses the MovieDB API to extract and download movie's metadata.
